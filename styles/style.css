@@ -7,7 +7,10 @@ body{
 .page {
   min-width: 1300px;
   max-width: 1600px;
-  margin: auto;
+<<<<<<< HEAD
+=======
+  margin: 0 auto;
+>>>>>>> 52ee111 (- Adjusting semantics of <main> children.)
 }
 
 .header {
