@@ -7,7 +7,7 @@ body{
 .page {
   min-width: 1300px;
   max-width: 1600px;
-  margin: 0px auto;
+  margin: auto;
 }
 
 .header {
@@ -27,7 +27,7 @@ body{
   line-height: 76px;
   font-weight: 500;
   color: #000000;
-  max-width: 650px;
+  max-width: 601px;
 }
 
 .header__description {
@@ -35,7 +35,7 @@ body{
   font-size: 20px;
   line-height: 30px;
   color: #000000;
-  max-width: 650px;
+  max-width: 522px;
 }
 
 .header__image {
