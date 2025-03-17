@@ -24,19 +24,19 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#membership">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -55,7 +55,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -63,7 +63,7 @@
       </header>
   
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <!-- --------------------------------------------------------------- -->
           <!--              Don't uncomment until project stage 2              -->
           <!-- --------------------------------------------------------------- -->
@@ -95,7 +95,7 @@
               prove that this hasn't been the case since at least the 18th
               century.
             </p>
-            <a href="#" class="events__more">More events &rarr;</a>
+            <a href="#events" class="events__more">More events &rarr;</a>
           </div>
           <!-- Start creating the composition here -->
            <div class="events__cover">
@@ -122,13 +122,13 @@
               </div>
            </div>
         </section>
-        <section class="staff">
+        <section class="staff" id="staff">
           <!-- --------------------------------------------------------------- -->
           <!--        Don't uncomment until the final project stage            -->
           <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="staff__title">Staff picks</h2>
+          <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul>
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -194,14 +194,14 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-          </ul>-->
+          </ul>
         </section>
   
-        <section class="membership">
+        <section class="membership" id="membership">
           <!-- --------------------------------------------------------------- -->
           <!--         Don't uncomment until the final project stage           -->
           <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -253,14 +253,14 @@
                 Enjoy all the awesome benefits of membership!
               </p>
             </li>
-          </ul>-->
+          </ul>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
           <!-- --------------------------------------------------------------- -->
           <!--          Don't uncomment until the final project stage          -->
           <!-- --------------------------------------------------------------- -->
-          <!-- <img
+          <img
             class="about__image"
             src="./images/cafe-about.svg"
             alt="Illustration 'Cafe'"
@@ -283,10 +283,56 @@
               section. This week's selection is full of books anyone interested in
               computer programming would love!
             </p>
-          </div> -->
+          </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img src="./images/logo_white.svg" alt="Triple Peaks Library &ndash; White Logo" class="footer__logo">
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">
+              Hours
+            </h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Weekdays: 9am &ndash; 8pm
+              </li>
+              <li class="footer__list-item">
+                Weekends: 10am &ndash; 6pm
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">
+              Social media
+            </h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"> Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img 
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          &copy; 2025 Ry Bealey
+        </p>
+      </footer>
     </div>
   </body>
 </html>
